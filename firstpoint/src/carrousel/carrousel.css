@@ -1,0 +1,43 @@
+.carrousel {
+  height: 57vh;
+  background-color: #e0dad5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.carrousel__title {
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+.carrousel .carousel .slide .carousel-dark {
+  height: 50vh;
+  max-height: 100vh;
+  max-width: 100vw;
+  min-height: 50vh;
+  min-width: 100vw;
+}
+.carrousel .carousel-inner {
+  max-height: 100vh;
+  max-width: 100vw;
+  min-height: 50vh;
+  min-width: 100vw;
+}
+.carrousel .d-block .w-100 {
+  height: auto;
+  max-height: 400px;
+  max-width: 100vw;
+}
+.carrousel .carousel-caption {
+  position: absolute;
+  top: 39vh;
+}
+.carrousel .carousel-indicators {
+  position: absolute;
+  top: 38.2vh;
+}
+.carrousel .carousel-control-next,
+.carrousel .carousel-control-prev {
+  height: 40vh;
+  color: #e0dad5;
+}
